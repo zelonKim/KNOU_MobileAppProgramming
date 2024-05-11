@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<!--
+    // Button 예제
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:onClick="onButtonClick" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="world"
+        android:onClick="onButtonClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text2" />
+ -->
+
+
+<!--
+    // EditText 예제
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="입력하세요." />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="button"
+        android:onClick="onButtonClick" />
+-->
+
+
+<!--
+   // CheckBox 예제
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="apple"
+       />
+
+   <CheckBox
+       android:id="@+id/cb2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="banana"
+       />
+
+   <CheckBox
+       android:id="@+id/cb3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="orange"
+       />
+-->
+
+
+<!--
+    // RadioButton예제
+     <RadioGroup
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+       <RadioButton
+           android:id="@+id/radio1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Apple" />
+       <RadioButton
+           android:id="@+id/radio2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Banana" />
+       <RadioButton
+           android:id="@+id/radio3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Orange" />
+     </RadioGroup>
+
+     <TextView
+         android:id="@+id/text1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+-->
+
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="switch"
+        android:id="@+id/switch1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="button"
+        android:id="@+id/bt1"
+        android:onClick="onButtonClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15dp"
+        android:id="@+id/textResult" />
+
+</LinearLayout>
