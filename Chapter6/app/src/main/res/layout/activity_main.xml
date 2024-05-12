@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10px"
+        android:text="TARGET"
+        android:layout_centerInParent="true"
+        android:id="@+id/target"
+        android:textSize="30sp"
+        android:background="#00D8FF" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/target"
+        android:text="LEFT"
+        android:id="@+id/left"
+        android:textSize="20sp"
+        android:background="#1DDB16" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/target"
+        android:text="LEFT"
+        android:id="@+id/right"
+        android:textSize="20sp"
+        android:background="#1DDB16" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/target"
+        android:text="TOP"
+        android:id="@+id/top"
+        android:textSize="20sp"
+        android:background="#1DDB16" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/target"
+        android:text="BOTTOM"
+        android:id="@+id/bottom"
+        android:textSize="20sp"
+        android:background="#1DDB16" />
+
+</RelativeLayout>
+-->
+
+
+<!--
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="50dip"
+        android:layout_y="350dip"
+        android:text="Absolute(50, 350)"
+        android:textSize="20sp"
+        android:background="#B2CCFF" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="130dip"
+        android:layout_y="90dip"
+        android:text="Layout(130, 90)"
+        android:textSize="20sp"
+        android:background="#F2CB61" />
+
+</AbsoluteLayout>
+-->
+
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:adjustViewBounds="true" />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show / hide" />
+
+</FrameLayout>
