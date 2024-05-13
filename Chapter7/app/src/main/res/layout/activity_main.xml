@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+            android:text="SUN"
+            android:textSize="50px"
+            android:padding="5dip"
+            android:textColor="#FF0000" />
+        <TextView
+            android:text="MON"
+            android:textSize="50px"
+            android:padding="5dip" />
+        <TextView
+            android:text="TUE"
+            android:textSize="50px"
+            android:padding="5dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="5"
+            android:textSize="50px"
+            android:padding="5dip"
+            android:textColor="#FF0000" />
+        <TextView
+            android:text="6"
+            android:textSize="50px"
+            android:padding="5dip" />
+        <TextView
+            android:text="7"
+            android:textSize="50px"
+            android:padding="5dip" />
+    </TableRow>
+
+</TableLayout>
+-->
+
+
+<!--
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="1,2"
+    >
+
+    <TableRow>
+        <TextView
+            android:text="SUNDAY"
+            android:textSize="100px"
+            android:padding="5dip"
+            android:textColor="#FF0000" />
+        <TextView
+            android:text="MONDAY"
+            android:textSize="100px"
+            android:padding="5dip" />
+        <TextView
+            android:text="TUESDAY"
+            android:textSize="100px"
+            android:padding="5dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="5"
+            android:textSize="100px"
+            android:padding="5dip"
+            android:textColor="#FF0000" />
+        <TextView
+            android:text="6"
+            android:textSize="100px"
+            android:padding="5dip" />
+        <TextView
+            android:text="7"
+            android:textSize="100px"
+            android:padding="5dip" />
+    </TableRow>
+
+</TableLayout>
+-->
+
+
+<!--
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textid"
+        android:text="CodeLayout Example Test"
+        android:typeface="serif"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonid"
+        android:text="BUTTON" />
+
+</LinearLayout>
+-->
+
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageid"
+        android:src="@mipmap/ic_launcher" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonid"
+        android:text="BUTTON" />
+</LinearLayout>
