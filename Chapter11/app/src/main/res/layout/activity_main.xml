@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Activity"
+        android:textColor="#0100FF"
+        android:textSize="25sp"
+        android:typeface="serif" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CALL"
+        android:onClick="mOnClick"
+        android:text="CALL" />
+
+</LinearLayout>
+-->
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/telText"
+        android:editable="true"
+        android:inputType="phone" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/callBtn"
+        android:onClick="mOnClick"
+        android:text="CALL" />
+</LinearLayout>
